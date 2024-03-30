@@ -1,0 +1,60 @@
+:root {
+  font-size: 62.5%;
+
+  --bgColor: #212121;
+  --textColor: white;
+}
+
+* {
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 2.5rem;
+  background-color: var(--bgColor);
+  color: var(--textColor);
+}
+
+#pickColor {
+
+  max-width: 100dvw;
+  min-height: 100dvh;
+  padding: 1rem;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.25s ease;
+}
+
+#form {
+  margin-top: 20rem;
+  font-size: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+#colorpicker {
+  height: 7rem;
+  width: 12rem;
+
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+
+ box-shadow: 0.2rem 0.2rem 5rem #212121;
+}
+
+label {
+  font-weight: bold;
+}
+
+label, #header {
+  text-shadow: 0.2rem 0.2rem 0.5rem hsla(0, 0%, 4%, 0.905) ;
+}
+
